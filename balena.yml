@@ -4,13 +4,13 @@ description: >-
 fleetcta: Add LoRaWAN module
 joinable: false
 post-provisioning: >-
-  Read correct config in the repo README - https://github.com/xoseperez/picogw-packet-forwarder-docker
+  Read correct config in the repo README - https://github.com/xoseperez/picogw-packet-forwarder
 type: sw.application
 assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/xoseperez/picogw-packet-forwarder-docker'
+      url: 'https://github.com/xoseperez/picogw-packet-forwarder'
 data:
   applicationConfigVariables:
     - BALENA_HOST_CONFIG_dtoverlay: '"disable-bt"'

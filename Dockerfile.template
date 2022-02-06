@@ -22,7 +22,7 @@ LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="PicoGW Packet Forwarder"
 LABEL org.label-schema.description="LoRaWAN UDP Packet Forwarder for LoRa Picocell Gateways"
 LABEL org.label-schema.vcs-type="Git"
-LABEL org.label-schema.vcs-url="https://github.com/xoseperez/picogw-packet-forwarder-docker"
+LABEL org.label-schema.vcs-url="https://github.com/xoseperez/picogw-packet-forwarder"
 LABEL org.label-schema.license="BSD License 2.0"
 
 # Install required runtime packages
