@@ -112,18 +112,7 @@ Once built (it will take some minutes) you can bring it up by using `xoseperez/p
 
 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/xoseperez/picogw-packet-forwarder/)
 
-You need to set the variables upon deployment according to your installed concentrator / gateway. Example for a RAK 5146 USB installed on a RAK 2287 Pi Hat on a RPi 3:
-
-````
-DEVICE: "/dev/ttyACM0"
-GATEWAY_EUI: "<YourGatewayEUI>"
-TTN_REGION: "eu1"
-BAND: "eu_863_870"
-````
-
-You can also set other variables like `GPS_LATITUDE`, `GPS_LONGITUDE` and `GPS_ALTITUDE` for fake GPS (in case HAS_GPS is 0 - please do not include these variables if your unit has a GPS, otherwise it will not use it).
-
-For more details, read the `Service Variables` section below.
+You need to set the variables upon deployment. See the `Service Variables` section below.
 
 ## Configure the Gateway
 

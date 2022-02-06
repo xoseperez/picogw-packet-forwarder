@@ -16,9 +16,8 @@ data:
     - BALENA_HOST_CONFIG_dtoverlay: '"disable-bt"'
     - BALENA_HOST_CONFIG_enable_uart: 1
   applicationEnvironmentVariables:
-    - MODEL: "R11e-LoRa8"
-    - RADIO_DEV: "/dev/spidev0.1"
-    - GATEWAY_EUI_NIC: ""
+    - DEVICE: "/dev/ttyACM0"
+    - GATEWAY_EUI_NIC: "eth0"
     - GATEWAY_EUI: ""
     - TTN_REGION: "eu1"
     - SERVER_HOST: ""
