@@ -39,10 +39,17 @@ As long as the host can run docker containers, the PicoCell Gateway UDP Packet F
 
 #### LoRa Concentrators
 
-Supported LoRa concentrators:
+Tested with:
 
 * [MikroTik R11e-LoRa8](https://mikrotik.com/product/r11e_lr8)
+
+
+Untested but should work (feedback welcome):
+
+* [Semtech SX1308P868GW](https://www.semtech.com/products/wireless-rf/lora-core/sx1308p868gw)
 * [MikroTik R11e-LoRa9](https://mikrotik.com/product/r11e_lr9)
+* [N-Fuse LRWCCx-MPCIE](https://www.n-fuse.co/devices/LoRaWAN-Concentrator-Card-mini-PCIe.html)
+
 
 > **NOTE**: USB concentrators in MiniPCIe form factor will require a USB adapter to connect them to a USB2/3 socket on your PC or SBC. Other form factors might also require an adaptor for the target host.
 
